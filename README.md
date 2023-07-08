@@ -1,21 +1,19 @@
 # GasStation
 
-**TODO: Add description**
+Demo app showcasing plug_cowboy, HTTPoison, Poison, and GenServers.
 
-## Installation
+## Setup
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `gas_station` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:gas_station, "~> 0.1.0"}
-  ]
-end
+```bash
+$ git clone git@github.com:ZaneH-YT/gas_station.git
+$ cd gas_station
+$ mix deps.get
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/gas_station>.
+## Run
 
+```bash
+$ iex -S mix
+```
+
+- Open browser to `localhost:4000/gas/eth` or `/gas/polygon`
